@@ -8,4 +8,4 @@ npm install
 npm run local
 ```
 
-[logo]: ./static/images/explorer.png "Explorer 93"
+[logo]: static/images/explorer.png "Explorer 93"
