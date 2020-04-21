@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    title #{pageLabel}
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width,initial-scale=1")
+    meta(http-equiv="content-type" content="text/html; charset=UTF-8")
+    link(href="/css/styles.css" rel="stylesheet")
+    link(href="/css/react-datasheet.css" rel="stylesheet")
+    link(href="/css/fonts/fonts.google.family.OpenSans.css" rel="stylesheet")
+  body(style="background:#fff;margin:0;")
+    div(id="spreadsheet") #{spreadsheet}
+    script(src="/spreadsheet/js/spreadsheet.js" defer)
