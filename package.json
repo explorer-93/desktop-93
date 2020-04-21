@@ -5,6 +5,9 @@
   "version": "0.0.93",
   "license": "WTFPL",
   "private": false,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "build": "webpack && tsc",
     "start": "node dist/server.js",
